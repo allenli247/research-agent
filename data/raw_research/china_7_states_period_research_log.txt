@@ -1,0 +1,46 @@
+# China 7 States Period (Warring States Period) - Research Log
+
+## 1. Origins and the Partition of Jin
+*   **Timeframe:** The Warring States period (c. 475 – 221 BCE) followed the Spring and Autumn period of the Eastern Zhou dynasty.
+*   **The Partition of Jin (Sanjia Fen Jin):** This is considered the watershed event that marks the beginning of the Warring States period. The powerful State of Jin was divided among three rival ministerial families into the states of Han, Zhao, and Wei (often referred to collectively as the "Three Jins").
+*   **Background:** Unlike other states that enfeoffed cadet branches of the ruling house, Jin had a policy of exiling or disempowering its cadet houses. Instead, powerful ministerial families emerged and were granted fiefs. Over time, these families eclipsed the ruling duke.
+*   **Timeline of Partition:** 
+    *   The process took several decades. 
+    *   In 403 BCE, King Weilie of Zhou officially recognized the partition by conferring the title of Marquess on the rulers of Wei, Zhao, and Han.
+    *   In 386 BCE, the three states deposed Duke Jing of Jin and divided the last remaining Jin territory, officially ending the Jin state.
+
+## 2. Profiles of the Seven Major States (Zhanguo Qixiong)
+The geopolitical landscape was dominated by seven hegemonic states:
+*   **Qin (秦):** Located in the west. Grew to be the strongest state. Known for its treacherous terrain, ferocious troops, strict and impartial laws, and clear rewards and punishments. Eventually conquered all other states.
+*   **Chu (楚):** Located in the south (encompassing modern Hubei, Hunan, and surrounding areas). A massive state with a distinct culture. Its ruling family claimed descent from the Yellow Emperor. Annexed by Qin in 223 BCE.
+*   **Qi (齊):** Located in the east (Shandong peninsula). Originally founded by Jiang Ziya. The ruling Jiang family was replaced by the Tian family in 386 BCE. It was the last state to surrender to Qin in 221 BCE.
+*   **Zhao (趙):** A northern state (modern Inner Mongolia, Hebei, Shanxi) that emerged from the partition of Jin. Bordered nomadic peoples (Hu and Xiongnu). Gained immense military strength through reforms by King Wuling. Suffered a devastating defeat by Qin at the Battle of Changping.
+*   **Wei (魏):** A central state (modern Henan, Hebei, Shanxi) that emerged from the partition of Jin. Later moved its capital to Daliang (Kaifeng) and was sometimes called Liang.
+*   **Han (韓):** A central state that emerged from the partition of Jin. The smallest of the seven, located in a mountainous and unprofitable region. Its territory blocked Qin's passage into the North China Plain. Despite administrative reforms under Chancellor Shen Buhai, it was the first state to fall to Qin in 230 BCE.
+*   **Yan (燕):** The northernmost state (around modern Beijing). Faced constant incursions from steppe nomads and built great walls for defense. Conquered by Qin in 222 BCE.
+
+## 3. Military Innovations and Strategic Warfare
+*   **Scale and Intensity:** Warfare transitioned from the small-scale, aristocratic, chariot-based clashes of the Spring and Autumn period to massive, pitched, and highly violent conflicts involving hundreds of thousands of conscripted soldiers.
+*   **Infantry and Cavalry:** Massed infantry became the core of the armies. Chariots reached their peak but were gradually superseded by cavalry. States like Zhao adopted nomadic cavalry tactics and mounted archery to counter steppe threats and rival states.
+*   **The Crossbow:** A major technological innovation. Unlike traditional bows, crossbows featured trigger-released cocking mechanisms, allowing soldiers to keep the weapon drawn and take unlimited time to aim. This enabled massed volleys by relatively untrained infantry.
+*   **Metallurgy:** Advanced metallurgical standardization for arms and armor occurred, with the widespread use of bronze and the early development of cast iron weapons.
+*   **Strategic Treatises:** A rich strategic tradition flourished. Key texts included Sun Tzu's *The Art of War*, Sun Bin's *Art of War*, and Wu Qi's *Wuzi*. Military commanders became professionalized.
+*   **Notable Conflicts:** The Battle of Changping (260 BCE) between Qin and Zhao was one of the bloodiest battles of the era, with claims of up to 400,000 Zhao soldiers killed or executed.
+
+## 4. The Hundred Schools of Thought (諸子百家)
+*   **Context:** Flourished from c. 500 to 221 BCE. The era's turbulence, chaos, and mass militarization paradoxically created an environment where philosophy and intellectualism thrived.
+*   **Itinerant Scholars:** Competing state rulers patronized itinerant scholars, employing them as advisers on government administration, diplomacy, and war.
+*   **Major Philosophies:** This period saw the development of Confucianism, Legalism, Daoism, Mohism, the School of Names (e.g., Gongsun Long in Zhao), and others. 
+*   **Legacy:** These philosophies profoundly influenced East Asian culture and society. The period of intellectual freedom ended with the rise of the Qin dynasty, which enforced Legalism and initiated the burning of books and burying of scholars to suppress ideological dissent.
+
+## 5. The Rise of Qin and Ultimate Unification
+*   **Rise to Power:** Qin became the dominant power following the comprehensive administrative and legal reforms of Shang Yang in the mid-4th century BCE, which centralized state power and militarized society.
+*   **Diplomatic Warfare:** The other six states frequently attempted to form "vertical alliances" (合縱; hézòng) to unite against Qin. In response, Qin utilized "horizontal alliances" (連橫; liánhéng), using bribery and diplomacy to pit its enemies against one another and break their coalitions.
+*   **Wars of Unification (230–221 BCE):** King Ying Zheng of Qin launched a final series of campaigns to conquer the remaining states one by one:
+    *   230 BCE: Conquered Han.
+    *   228 BCE: Conquered Zhao.
+    *   225 BCE: Conquered Wei.
+    *   223 BCE: Conquered Chu.
+    *   222 BCE: Conquered Yan.
+    *   221 BCE: Conquered Qi.
+*   **Aftermath:** In 221 BCE, Ying Zheng declared himself Qin Shi Huang (First Emperor) of a unified China. He abolished the old Zhou feudal system (*fengjian*) in favor of a highly centralized bureaucratic government, marking the beginning of China's Imperial era.
