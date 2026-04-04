@@ -1,0 +1,36 @@
+# Research Log: Convolutional Neural Networks (CNNs)
+
+## 1. What is a Convolutional Neural Network?
+* A convolutional neural network (CNN) is a type of feedforward neural network that learns features via filter (or kernel) optimization.
+* It is the de-facto standard in deep learning-based approaches to computer vision and image processing.
+* CNNs are also known as shift-invariant or space-invariant artificial neural networks. This is based on the shared-weight architecture of the convolution kernels or filters that slide along input features and provide translation-equivariant responses known as feature maps.
+* Counter-intuitively, most CNNs are not perfectly invariant to translation due to the downsampling operations they apply.
+* They prevent vanishing and exploding gradients (common in earlier neural networks) through regularization that comes from using shared weights over fewer connections.
+
+## 2. History and Evolution
+* **Inspiration (1959):** Inspired by the biological model proposed by Hubel & Wiesel, who discovered "simple cells" and "complex cells" in the visual primary cortex and proposed a cascading model for pattern recognition.
+* **Neocognitron (1979):** Proposed by Kunihiko Fukushima. It was a hierarchical, multilayered artificial neural network used for Japanese handwritten character recognition. It learned convolutional kernels via unsupervised learning and served as the direct inspiration for modern CNNs.
+* **Yann LeCun & LeNet:** Yann LeCun pioneered the use of CNNs for optical character recognition and computer vision, developing architectures like LeNet.
+* **AlexNet (2012):** Developed by Alex Krizhevsky, Ilya Sutskever, and Geoffrey Hinton. It achieved prominence by winning the ImageNet Large Scale Visual Recognition Challenge (ILSVRC) with a top-5 error rate of 15.3%. It proved that network depth was essential for high performance and demonstrated the feasibility of using GPUs for training large models (60 million parameters, 650,000 neurons).
+
+## 3. How it Works (Architecture & Building Blocks)
+* **Convolutional Layers:** Instead of connecting every neuron to every pixel (e.g., 10,000 weights for a 100x100 image), CNNs apply cascaded convolution (or cross-correlation) kernels. For example, only 25 weights are required to process 5x5-sized tiles. Higher-layer features are extracted from wider context windows compared to lower-layer features.
+* **Pooling Layers:** A network layer that downsamples and aggregates information dispersed among many vectors into fewer vectors. 
+  * Removes redundant information.
+  * Reduces computation and memory requirements.
+  * Makes the model more robust to small variations in the input.
+  * Increases the receptive field of neurons in later layers.
+  * Max-pooling is a common technique.
+* **Fully Connected Layers:** Typically used at the end of the network for classification.
+* **Activation Functions:** Modern CNNs (like AlexNet) popularized the use of non-saturating ReLU (Rectified Linear Unit) activation functions, which train faster and better than traditional tanh and sigmoid functions.
+* **Typical Structure:** (CONV -> Normalization -> Pooling) repeated -> Fully Connected -> Softmax.
+
+## 4. Applications
+CNNs have been applied to process and make predictions from many different types of data (text, images, audio). Specific applications include:
+* Image and video recognition
+* Image classification and segmentation
+* Medical image analysis
+* Recommender systems
+* Natural language processing (NLP)
+* Brain–computer interfaces
+* Financial time series forecasting

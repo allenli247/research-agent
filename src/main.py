@@ -46,7 +46,7 @@ def run_agent_loop(agent_name: str, system_instruction: str, user_prompt: str, s
     client = genai.Client()
     
     chat = client.chats.create(
-        model="gemini-2.0-flash",
+        model="gemini-3.1-pro-preview",
         config=types.GenerateContentConfig(
             system_instruction=system_instruction,
             tools=server.get_all_tools(),
