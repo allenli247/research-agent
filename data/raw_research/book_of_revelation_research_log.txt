@@ -1,0 +1,35 @@
+# Book of Revelation: Raw Research Log
+
+## 1. Historical Context and Authorship
+*   **Authorship**: Traditionally attributed to John the Apostle (the son of Zebedee). However, modern scholarship often distinguishes the author as "John of Patmos" or "John the Presbyter" due to stylistic, linguistic, and theological differences from the Gospel of John. The author identifies himself simply as "John" and states he was exiled on the island of Patmos for preaching the word of God.
+*   **Date of Composition**: Most scholars date the book to the end of the reign of the Roman Emperor Domitian (c. 95-96 AD). A minority date it earlier, to the reign of Nero (c. 68-69 AD), based on the numerical value of 666 (Nero Caesar) and references to the temple.
+*   **Historical Context**: Written as a circular letter to seven churches in the Roman province of Asia (modern-day Turkey): Ephesus, Smyrna, Pergamum, Thyatira, Sardis, Philadelphia, and Laodicea. The context is one of perceived or actual persecution of Christians by the Roman Empire, as well as internal pressures to assimilate into the surrounding Greco-Roman culture, trade guilds, and the imperial cult (emperor worship).
+
+## 2. Apocalyptic Genre and Symbolism
+*   **Genre**: The Book of Revelation is a classic example of apocalyptic literature, a genre that flourished in Jewish and early Christian communities from c. 200 BC to 200 AD. It uniquely combines elements of apocalypse, prophecy, and epistle.
+*   **Characteristics of Apocalyptic Literature**: Features visionary experiences, angelic mediators, bizarre and highly symbolic imagery, cosmic dualism (good vs. evil, light vs. dark), and a strong focus on eschatology (the end times) and divine intervention.
+*   **Symbolism**: 
+    *   **Numbers**: Play a crucial role (e.g., 7 represents completeness/perfection; 6 represents human imperfection/evil; 12 represents the tribes of Israel or the apostles; 144,000 represents the complete number of God's people). 
+    *   **Imagery**: Colors, animals, and cosmic phenomena are highly symbolic, drawing heavily from Old Testament prophetic books (Daniel, Ezekiel, Zechariah, Isaiah). For example, horns represent power, and eyes represent knowledge/omniscience.
+
+## 3. Major Interpretive Frameworks
+*   **Preterist**: Interprets the events of Revelation as having been fulfilled in the 1st century, primarily relating to the fall of Jerusalem and the destruction of the Second Temple (70 AD) or the fall of the Roman Empire.
+*   **Historicist**: Views the book as a chronological outline of church history from the 1st century until the Second Coming. This view was popular among Protestant Reformers who often identified the Papacy with the Antichrist.
+*   **Futurist**: Believes that most of the book (from chapter 4 onwards) describes future events that will occur immediately preceding the end of the world. This is common in dispensationalism and modern evangelicalism.
+*   **Idealist (or Spiritual/Symbolic)**: Interprets the book not as a record of specific historical or future events, but as an allegory of the ongoing spiritual struggle between good and evil, God and Satan, which applies to the Church in any age.
+
+## 4. Key Visions and Eschatological Themes
+*   **The Throne Room (Ch. 4-5)**: A vision of God on the throne and the Lamb (Jesus, appearing as though slain) who alone is worthy to open the scroll with seven seals.
+*   **The Seven Seals, Trumpets, and Bowls**: Three series of divine judgments poured out on the earth, each increasing in severity and scope.
+*   **The Four Horsemen of the Apocalypse**: The first four seals, representing conquest (white horse), war (red horse), famine (black horse), and death (pale horse).
+*   **The Two Witnesses (Ch. 11)**: Prophets who preach for 1,260 days, are killed by the beast, and are miraculously resurrected.
+*   **The Woman and the Dragon (Ch. 12)**: A cosmic battle between a heavenly woman (representing Israel/the Church) and a red dragon (Satan).
+*   **The Two Beasts (Ch. 13)**: The Beast from the Sea (political power/Antichrist) and the Beast from the Earth (false prophet), who enforce the Mark of the Beast (666) on humanity.
+*   **The Whore of Babylon (Ch. 17-18)**: Represents the corrupt, idolatrous world system (historically Rome, but symbolic of any oppressive, materialistic empire).
+*   **The Millennium (Ch. 20)**: A 1,000-year reign of Christ. Interpretations include Premillennialism (Christ returns before the millennium), Amillennialism (the millennium is symbolic of the current church age), and Postmillennialism (Christ returns after a golden age of Christianity).
+*   **The Final Judgment and New Creation (Ch. 21-22)**: The final defeat of Satan, the Great White Throne Judgment, and the descent of the New Jerusalem, representing the eternal dwelling of God with humanity in a restored creation.
+
+## 5. Cultural and Theological Legacy
+*   **Theological Impact**: Provides the ultimate Christian hope of God's final victory over evil, the vindication of the martyrs, and the restoration of creation. It emphasizes the sovereignty of God, the lordship of Christ, and the call for patient endurance among believers.
+*   **Cultural Influence**: Has profoundly shaped Western art, literature, and popular culture. Imagery like the Four Horsemen, the Antichrist, the number 666, and Armageddon are ubiquitous in movies, books, and music, often divorced from their original theological context.
+*   **Historical Movements**: Has inspired numerous millennial and utopian movements throughout history. Misinterpretations or literal readings have sometimes led to radical or apocalyptic sects (e.g., the Münster rebellion in the 16th century, the Branch Davidians in the 20th century).
