@@ -101,20 +101,36 @@ def main():
         sys.exit(1)
 
     # The topic to research
-    topic = " ".join(sys.argv[1:]) if len(sys.argv) > 1 else "Convolutional Neural Networks"
+    topic = " ".join(sys.argv[1:]) if len(sys.argv) > 1 else "Large Language Models"
     print(f"Target Topic: {topic}")
 
     server = ToolServer()
-    research_log_path = "data/raw_research/research_log.txt"
-    draft_path = "data/draft.md"
-    final_path = "white_paper.md"
+    
+    # Create topic-specific filenames to prevent overwriting
+    safe_topic = topic.replace(" ", "_").lower()
+    
+    research_log_path = f"data/raw_research/{safe_topic}_research_log.txt"
+    draft_path = f"data/{safe_topic}_draft.md"
+    final_path = f"{safe_topic}_white_paper.md"
+
+    # ========================================================
+    # PHASE 0: PLANNER AGENT
+    # ========================================================
+    planner_prompt = (
+        "You are an expert Planning Agent. Your job is to determine the best structure for researching and writing about a specific topic. "
+        "The user will provide a topic. You must output exactly 3 to 5 key section titles, separated by commas, that would make for the most comprehensive and engaging white paper on this topic. "
+        "For example, if the topic is 'Baking Cookies', you might output: 'Ingredients and Chemistry, The Maillard Reaction, Temperature and Time, Variations and Techniques'. "
+        "Do not use any tools or write extra text. Just output the comma-separated list of section titles."
+    )
+    dynamic_sections = run_agent_loop("Planner", planner_prompt, f"Topic: {topic}", server)
+    print(f"\n[Planner] Generated Sections: {dynamic_sections}\n")
 
     # ========================================================
     # PHASE 1: INGEST / RESEARCHER AGENT
     # ========================================================
     researcher_prompt = (
         "You are an expert Researcher Agent. Your task is to perform comprehensive research on the given topic. "
-        "Use the `search_wikipedia` tool to find information covering: what it is, its history, how it works, and its applications. "
+        f"Use the `search_wikipedia` tool to find information covering these specific sections: {dynamic_sections}. "
         "Once you have enough information, use `write_markdown` to save all your findings into a file called "
         f"'{research_log_path}'. Do NOT write the final white paper. Just dump the raw facts, history, and notes. "
         "Return the string 'RESEARCH_COMPLETE' when done."
@@ -127,7 +143,7 @@ def main():
     writer_prompt = (
         "You are an expert Technical Writer Agent. Your task is to draft a comprehensive white paper with LaTeX math enabled. "
         f"First, use `read_local_text` to read the notes from '{research_log_path}'. "
-        "Then, write a structured and engaging markdown document. Include sections for Purpose, History, How it Works, and Applications. "
+        f"Then, write a structured and engaging markdown document clearly dividing the paper into these sections: {dynamic_sections}. "
         f"Use `write_markdown` to save the draft to '{draft_path}'. "
         "Return the string 'DRAFT_COMPLETE' when done."
     )
