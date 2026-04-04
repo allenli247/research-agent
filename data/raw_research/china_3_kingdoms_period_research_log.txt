@@ -1,0 +1,31 @@
+# Research Log: China Three Kingdoms Period
+
+## 1. Collapse of the Han Dynasty
+*   **Timeframe**: The end of the Eastern Han dynasty spanned roughly from 189 to 220 CE.
+*   **Catalysts for Collapse**: The empire was thrown into turmoil by the Yellow Turban Rebellion (184–205 CE). Imperial institutions were further destroyed by the warlord Dong Zhuo, causing the empire to fracture into regional regimes controlled by various warlords.
+*   **Figurehead Emperor**: Emperor Xian, who ascended the throne in 189 CE at age eight, was a mere political figurehead. 
+*   **Rise of Cao Cao**: In 196 CE, the powerful warlord Cao Cao took control of Emperor Xian and the imperial court, using the emperor as a hostage to legitimize his military campaigns to reunify the empire.
+*   **Formal End**: The Han dynasty officially ended in 220 CE when Cao Cao's son and heir, Cao Pi, pressured Emperor Xian into abdicating the throne in his favor.
+
+## 2. Rise of the Three Rival States
+Following the fall of the Han Dynasty, China was divided into three major power blocs:
+*   **Cao Wei (魏)**: Established in 220 AD by Cao Pi, building upon the northern territories consolidated by his father, Cao Cao. Its capital was initially Xuchang, later moved to Luoyang. It was the dominant state in the north.
+*   **Shu Han (蜀漢)**: Established in 221 AD by the warlord Liu Bei in response to Cao Pi's usurpation. Claiming royal Han lineage, Liu Bei declared himself emperor to continue the Han dynasty. It was based in the southwestern region (modern-day Sichuan).
+*   **Eastern Wu (東吳)**: Founded by Sun Quan. It existed as a vassal kingdom under Cao Wei from 220 to 222 AD before declaring complete independence. In 229 AD, Sun Quan officially declared himself emperor. It was based in the Jiangnan (Yangtze River Delta) region, with capitals at Jianye (Nanjing) and Wuchang.
+
+## 3. Key Military Campaigns and Strategies
+*   **Battle of Guandu (200 AD)**: A decisive battle where Cao Cao defeated the numerically superior forces of northern rival Yuan Shao. This victory made Cao Cao the undisputed dominant power in northern China and laid the foundation for the state of Cao Wei.
+*   **Battle of Red Cliffs (208–209 AD)**: A critical naval battle on the Yangtze River. The allied forces of southern warlords Sun Quan and Liu Bei defeated Cao Cao's massive northern army. This victory prevented Cao Cao from conquering the south, effectively ensuring the tripartite division of China and establishing the defensible borders of Shu Han and Eastern Wu.
+*   **Battle of Xiaoting / Yiling (221–222 AD)**: Fought between Shu Han and Eastern Wu. It was triggered by Wu's invasion of Jing Province and the capture/execution of Shu's top general, Guan Yu. Eastern Wu forces managed to turn initial losses into a defensive stalemate and eventually won a decisive victory, halting the Shu invasion and severely weakening Shu Han just before Liu Bei's death.
+
+## 4. Unification under the Jin Dynasty
+*   **Rise of the Sima Clan**: In the state of Cao Wei, the ruling Cao family's authority dramatically weakened after 249 AD. The regent Sima Yi and his relatives gradually usurped state power, turning the last Wei emperors into puppets.
+*   **Establishment of Jin**: In 266 AD, Sima Yi's grandson, Sima Yan, forced the Wei emperor to abdicate and proclaimed himself emperor of the newly established Jin dynasty (Western Jin).
+*   **Reunification**: In 280 AD, the Western Jin successfully conquered Eastern Wu. This marked the official end of the Three Kingdoms period and reunited China proper for the first time since the fall of the Han dynasty.
+*   **Subsequent Fall**: The unification was short-lived. The Jin dynasty was severely weakened by internal civil wars (War of the Eight Princes, 291–306 AD) and subsequent uprisings by non-Han ethnicities ("Five Barbarians"), leading to the fall of the Western Jin in 316 AD and the fragmentation of northern China into the Sixteen Kingdoms.
+
+## 5. Cultural Legacy and Historical Impact
+*   **Records of the Three Kingdoms (Sanguozhi)**: Written by Chen Shou in the late 3rd century CE, this is the authoritative official historical text of the era, chronicling the events of Wei, Shu, and Wu.
+*   **Romance of the Three Kingdoms (Sanguo Yanyi)**: A 14th-century historical novel attributed to Luo Guanzhong. Blending history with fiction and myth, it romanticizes the lives of the era's warlords and strategists. It is written from a pro-Shu perspective.
+*   **Literary and Cultural Impact**: *Romance of the Three Kingdoms* is one of the Four Great Classic Novels of Chinese literature. Its cultural impact in East Asia is frequently compared to that of Shakespeare in English literature. 
+*   **Modern Media**: The period's political maneuvering, military strategies, and larger-than-life figures (like Cao Cao, Liu Bei, Sun Quan, Guan Yu, and Zhuge Liang) have become household names. The era continues to heavily influence modern pop culture, inspiring countless poems, dramas, films, television series, and video games globally.

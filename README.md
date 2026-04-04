@@ -36,6 +36,10 @@ uv run python src/main.py "The Science of Baking Cookies"
 
 # Example 2: Historical Topic
 uv run python src/main.py "The Roman Empire"
+
+# Other examples
+uv run python src/main.py "The History of Jazz"
+uv run python src/main.py "CRISPR Gene Editing"
 ```
 
 ---

@@ -111,7 +111,7 @@ def main():
     
     research_log_path = f"data/raw_research/{safe_topic}_research_log.txt"
     draft_path = f"data/{safe_topic}_draft.md"
-    final_path = f"{safe_topic}_white_paper.md"
+    final_path = f"research_summaries/{safe_topic}_white_paper.md"
 
     # ========================================================
     # PHASE 0: PLANNER AGENT
