@@ -1,0 +1,31 @@
+# The Science of Baking Cookies: Research Log
+
+## 1. Ingredient Chemistry and Functions
+*   **Flour:** Acts as the primary structural component. It contains starches and proteins (glutenin and gliadin). The protein content determines the chewiness (e.g., bread flour yields a chewier cookie than all-purpose flour).
+*   **Sugars:** 
+    *   *White Sugar (Sucrose):* Crystallizes during cooling, contributing to a crisp texture.
+    *   *Brown Sugar:* Contains molasses, which introduces invert sugars (glucose and fructose). These are highly hygroscopic (water-attracting), leading to a softer, chewier cookie. Sugar also acts as a tenderizer by competing with flour for water, thereby limiting gluten formation.
+*   **Fats (Butter vs. Shortening):** Fats coat flour proteins, inhibiting extensive gluten networks (hence the term "shortening" the dough). Butter is an emulsion of fat (~80%), water (~15%), and milk solids (~5%). The water contributes to steam leavening, and milk solids aid in browning. Shortening is 100% fat, resulting in less spread and a taller, softer cookie, but lacking the complex flavor of butter.
+*   **Leavening Agents:**
+    *   *Baking Soda (Sodium Bicarbonate):* An alkaline compound that requires an acid (like molasses in brown sugar) to react and produce carbon dioxide (CO2). It also raises the pH of the dough, which accelerates the Maillard reaction and weakens gluten, increasing spread.
+    *   *Baking Powder:* Contains both a base (baking soda) and a dry acid. It is usually "double-acting," releasing CO2 once when hydrated and again when heated.
+*   **Eggs:** Provide moisture (mostly from the white) to hydrate the dough. The yolk contains lecithin, a powerful emulsifier that binds the water and fat phases together. Egg proteins coagulate during baking, providing structural integrity.
+
+## 2. Dough Hydration and Gluten Development
+*   **Hydration Process:** When the wet ingredients (eggs, butter moisture) meet the flour, starch granules begin to absorb water. 
+*   **Gluten Formation:** The proteins gliadin (providing extensibility) and glutenin (providing elasticity) link together in the presence of water to form the gluten network.
+*   **Controlling Gluten:** In cookie baking, minimal gluten development is desired to prevent a tough texture. The high ratio of fat and sugar to flour naturally inhibits gluten. Mixing time is kept short once flour is added to prevent overworking the network.
+*   **Resting/Chilling the Dough:** Allowing the dough to rest in the refrigerator (for 24-72 hours) allows the flour to fully hydrate and the fats to solidify. This minimizes spread during baking. Furthermore, enzymes (amylases) break down complex starches into simple sugars, enhancing both sweetness and the eventual Maillard browning.
+
+## 3. Thermal Dynamics and The Maillard Reaction
+*   **Melting Phase (approx. 92°F / 33°C):** As the dough enters the oven, the butter melts. The dough loses its structural rigidity and begins to spread. Trapped water is released.
+*   **Leavening Phase (approx. 136°F / 58°C):** The released water turns into steam. Baking soda and baking powder react rapidly, producing CO2 gas that expands the air pockets within the dough.
+*   **Structure Setting (144°F - 158°F / 62°C - 70°C):** Egg proteins begin to denature and coagulate, forming a solid matrix. Simultaneously, starch granules absorb water and gelatinize, solidifying the crumb of the cookie.
+*   **The Maillard Reaction (approx. 310°F / 154°C):** A complex chemical reaction between amino acids (from proteins in flour, eggs, and milk solids) and reducing sugars. This reaction produces hundreds of volatile flavor compounds (yielding nutty, savory, and butterscotch notes) and melanoidins, which give the cookie its golden-brown color.
+*   **Caramelization (approx. 356°F / 180°C):** If the temperature gets high enough, sucrose breaks down into complex polymers, adding deep, sweet, bitter, and toasted flavor profiles.
+
+## 4. Texture Evolution and Moisture Migration
+*   **Baking Gradients:** The edges of the cookie are thinner and exposed to more heat, reaching the Maillard and caramelization temperatures quickly. They set and crisp up while the thicker center remains at a lower temperature, staying moist and chewy.
+*   **Cooling Dynamics:** Upon removal from the oven, the cookie continues to bake slightly from residual heat (carryover cooking). As it cools, the melted sugars solidify into a crystalline or glassy state, firming up the cookie's final texture.
+*   **Moisture Migration:** Over time, moisture naturally migrates from areas of high concentration (the chewy center) to areas of low concentration (the crisp edges), eventually leading to a uniform, softer texture throughout.
+*   **Staling:** Starch retrogradation occurs as the gelatinized starches slowly expel water and recrystallize, making the cookie hard and crumbly. Because sugars are hygroscopic, storing cookies with a slice of bread allows the cookies to pull moisture from the bread, delaying the staling process and keeping them soft.
