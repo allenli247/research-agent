@@ -9,9 +9,9 @@ The origins of the GPU trace back to specialized electronic circuits designed ex
 During the 1990s and 2000s, the modern GPU emerged. A major historical milestone was the introduction of the first hardware Transform and Lighting (T&L) GPU, NVIDIA's GeForce 256, in 1999. These processors gained the ability to perform operations like drawing lines and text independently of the Central Processing Unit (CPU), eventually incorporating 3D functionality and custom programmable shaders. Because graphics functions—such as calculating pixel colors—are inherently independent, they lend themselves perfectly to parallel calculation engines. 
 
 This parallel nature gave rise to General-Purpose computing on GPUs (GPGPU). The true catalyst for modern GPGPU was the shift to unified shader architectures alongside the release of the CUDA platform in 2006, which allowed CPUs to offload embarrassingly parallel problems to GPUs. The theoretical speedup of such parallelization can be modeled by Amdahl's Law, as shown in Equation 1:
-\begin{equation}
+$$
 S_{\text{latency}}(s) = \frac{1}{(1-p) + \frac{p}{s}}
-\end{equation}
+$$
 where $S_{\text{latency}}$ is the theoretical speedup, $p$ is the proportion of execution time that benefits from parallelization, and $s$ is the speedup of the parallelized part. As $s \to \infty$, the maximum speedup is bounded by $\frac{1}{1-p}$. GPUs maximize $s$ by deploying thousands of calculation units, revolutionizing scientific computing and dominating the TOP500 supercomputer list.
 
 ## 2. Streaming Multiprocessors and Core Design
@@ -20,9 +20,9 @@ The fundamental processing unit within a modern GPU is the Streaming Multiproces
 Workloads are divided into threads, which are grouped into "thread blocks" (typically up to 1024 threads per block in modern architectures). All threads within the same thread block run concurrently on the same multiprocessor. This hierarchy allows threads within a block to communicate efficiently via shared memory, barrier synchronization, and atomic operations. 
 
 Multiple thread blocks are combined to form a "grid," allowing computations to scale seamlessly across all available multiprocessors on the GPU. The global thread ID in a 1D grid can be calculated as demonstrated in Equation 2:
-\begin{equation}
+$$
 i = \text{blockIdx.x} \times \text{blockDim.x} + \text{threadIdx.x}
-\end{equation}
+$$
 
 Core designs have evolved significantly from simple shading units. Modern multiprocessors include standard cores (e.g., NVIDIA CUDA cores, AMD Stream Processors) for general parallel tasks, as well as specialized cores designed for specific workloads, such as ray tracing cores and matrix math units (e.g., NVIDIA Tensor Cores, AMD Matrix Core Technology).
 
@@ -30,9 +30,9 @@ Core designs have evolved significantly from simple shading units. Modern multip
 To feed thousands of cores simultaneously, GPUs require massive memory bandwidth. The memory hierarchy of a GPU typically consists of fast, on-chip shared memory/L1 cache per multiprocessor, a unified L2 cache, and high-capacity off-chip global memory.
 
 The theoretical memory bandwidth $B$ (in GB/s) can be calculated using the formula presented in Equation 3:
-\begin{equation}
+$$
 B = \frac{f_{\text{mem}} \times W_{\text{bus}} \times D}{8 \times 10^9}
-\end{equation}
+$$
 where $f_{\text{mem}}$ is the memory clock frequency (in Hz), $W_{\text{bus}}$ is the memory bus width (in bits), and $D$ is the data rate multiplier (e.g., 2 for Double Data Rate). In this equation, the constant $8$ explicitly converts bits to bytes, and $10^9$ converts bytes to gigabytes.
 
 To meet these high bandwidth requirements, GPUs utilize specialized memory technologies:
@@ -45,9 +45,9 @@ Modern GPUs employ the Single Instruction, Multiple Threads (SIMT) execution mod
 Unlike multi-core CPUs (MIMD - Multiple Instruction, Multiple Data), where each core has its own instruction cache, decoder, and program counter, SIMT cores share a single instruction cache and decoder. Each PU maintains its own independent data, address registers, and memory, but relies on the central control unit for the program counter.
 
 A critical challenge in the SIMT model is **branch divergence**. Because instructions are broadcast synchronously, threads within a scheduling group—known as a "warp" (typically 32 threads) in NVIDIA architectures or a "wavefront" (typically 64 threads) in AMD architectures—cannot easily diverge. If threads take different paths in a conditional branch (e.g., an `if-else` statement), the execution paths must be serialized. The total execution time $T_{\text{warp}}$ for a divergent branch becomes the sum of the execution times of the taken paths, as expressed in Equation 4:
-\begin{equation}
+$$
 T_{\text{warp}} = T_{\text{if\_path}} + T_{\text{else\_path}}
-\end{equation}
+$$
 This serialization significantly reduces computational efficiency, making branch minimization a key optimization strategy in GPU programming.
 
 ## 5. Interconnects and Multi-GPU Scaling
@@ -61,9 +61,9 @@ These interconnect technologies, combined with network-level scaling like Infini
 
 ## 6. AI Acceleration and Future Trends
 GPUs have become the dominant hardware for Artificial Intelligence (AI) and Machine Learning (ML). Neural networks rely heavily on linear algebra, particularly matrix multiplications, which GPUs accelerate natively. The core operation in deep learning is the General Matrix Multiply (GEMM), defined in Equation 5:
-\begin{equation}
+$$
 C = \alpha A B + \beta C
-\end{equation}
+$$
 where $A$, $B$, and $C$ are matrices. 
 
 To accelerate these operations, vendors have introduced specialized hardware. NVIDIA introduced **Tensor Cores** starting with the Volta microarchitecture (2017), while AMD incorporated **Matrix Core Technology** in its CDNA architectures, and Intel developed **Matrix Extensions (XMX)** for its Xe architecture. These specialized units are designed to perform mixed-precision matrix math in a single clock cycle, delivering throughput far beyond that of standard cores.

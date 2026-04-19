@@ -141,7 +141,7 @@ def main():
     # PHASE 2: AUGMENT / DRAFTING AGENT
     # ========================================================
     writer_prompt = (
-        "You are an expert Technical Writer Agent. Your task is to draft a comprehensive white paper with LaTeX math enabled. "
+        "You are an expert Technical Writer Agent. Your task is to draft a comprehensive white paper with GitHub-flavored LaTeX math enabled (always use `$$` for block equations instead of `\\begin{equation}`). "
         f"First, use `read_local_text` to read the notes from '{research_log_path}'. "
         f"Then, write a structured and engaging markdown document clearly dividing the paper into these sections: {dynamic_sections}. "
         f"Use `write_markdown` to save the draft to '{draft_path}'. "
@@ -155,7 +155,7 @@ def main():
     critic_prompt = (
         "You are a strict Critic Agent. Your job is to review drafts. "
         f"Use `read_local_text` to read '{draft_path}'. "
-        "Evaluate it based on: Is it comprehensive? Does it use LaTeX properly? Is the history and purpose clear? "
+        "Evaluate it based on: Is it comprehensive? Does it use LaTeX properly (specifically using `$$` for block equations)? Is the history and purpose clear? "
         "Do NOT rewrite the draft yourself. Just identify 3-4 specific areas for improvement, like missing details or formatting issues. "
         "Provide those points as your final text output."
     )
