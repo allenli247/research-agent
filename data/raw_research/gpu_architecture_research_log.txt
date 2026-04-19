@@ -1,0 +1,33 @@
+# GPU Architecture Research Log
+
+## 1. Evolution of Parallel Processing
+*   **Origins:** GPUs began as specialized electronic circuits designed for digital image processing and accelerating computer graphics. Early graphics controllers (video display controllers or blitters) had no internal calculation capabilities and only performed basic memory movement.
+*   **1990s to 2000s:** The modern GPU emerged in the 1990s, adding the ability to perform operations like drawing lines and text without CPU help, and later adding 3D functionality and custom programmable shaders.
+*   **Parallel Nature:** Graphics functions are generally independent, lending themselves to separate calculation engines. Modern GPUs include hundreds or thousands of calculation units.
+*   **GPGPU (General-Purpose computing on GPUs):** The parallel structure made GPUs highly effective for non-graphic calculations involving embarrassingly parallel problems. GPGPU pipelines were developed at the beginning of the 21st century, allowing CPUs to offload parallel processing tasks to GPUs. This revolutionized scientific computing and supercomputing (dominating the TOP500 list).
+
+## 2. Streaming Multiprocessors and Core Design
+*   **Streaming Multiprocessors (SMs):** The fundamental processing units within a GPU. Threads are grouped into "thread blocks" (up to 1024 threads per block in modern architectures). All threads in the same thread block run concurrently on the same Streaming Multiprocessor.
+*   **Thread Communication:** Threads within the same block can communicate with each other via shared memory, barrier synchronization, and atomic operations.
+*   **Grids:** Multiple thread blocks are combined to form a grid, allowing computations to scale across all available multiprocessors on the GPU.
+*   **Core Evolution:** Core designs have evolved from simple shading units to complex, multi-functional cores. Modern architectures include standard cores (e.g., CUDA cores for general parallel tasks) and specialized cores (e.g., Tensor Cores for deep learning).
+
+## 3. Memory Hierarchy and Bandwidth
+*   **High Bandwidth Requirement:** GPUs require massive memory bandwidth to feed thousands of cores simultaneously.
+*   **GDDR SDRAM:** Graphics Double Data Rate SDRAM is specifically designed for GPUs. Unlike standard DDR SDRAM (which is byte-accessible), GDDR is block-accessible and optimized for high bandwidth. Generations have evolved from the original GDDR (introduced in 1998 as DDR SGRAM) up to GDDR6X and the upcoming GDDR7.
+*   **High Bandwidth Memory (HBM):** A 3D-stacked SDRAM interface that provides massive bandwidth and power efficiency. First introduced in 2013 and used in AMD Fiji GPUs in 2015. HBM is heavily used in high-performance datacenter GPUs and AI accelerators. Generations include HBM, HBM2, HBM3, and HBM4 (expected 2025). The AI boom has caused unprecedented demand for HBM.
+
+## 4. The SIMT Execution Model
+*   **SIMT (Single Instruction, Multiple Threads):** An execution model where a single central control unit broadcasts an instruction to multiple processing units (PUs).
+*   **Execution:** All PUs optionally perform simultaneous, synchronous, and fully-independent parallel execution of that single instruction.
+*   **Architecture:** Each PU has its own independent data and address registers and memory, but *no* program counter. Only the central control unit has a program counter.
+*   **Branch Divergence:** Because instructions are broadcast synchronously, SIMT cannot easily allow threads to diverge by branching. If threads take different paths in a conditional branch, the execution paths must be serialized, reducing efficiency.
+*   **Comparison to MIMD:** Unlike multi-core CPUs (MIMD) where each core has its own instruction cache, decoder, and program counter, SIMT cores share a single instruction cache and decoder.
+
+## 5. AI Acceleration and Future Trends
+*   **AI and Linear Algebra:** GPUs are increasingly dominating Artificial Intelligence (AI) and Machine Learning (ML) because neural networks rely heavily on linear algebra (matrix multiplications), which GPUs accelerate natively.
+*   **Tensor Cores:** Introduced by Nvidia in the Volta microarchitecture (2017), Tensor Cores are specially designed to accelerate deep learning operations (mixed-precision matrix math) far beyond the capabilities of regular CUDA cores.
+*   **Neural Processing Units (NPUs):** Also known as AI accelerators, these are specialized hardware designs focusing on low-precision arithmetic, novel dataflow architectures, and in-memory computing.
+*   **Datacenter to Consumer:** Datacenter chips like the Nvidia H100 contain tens of billions of transistors. AI acceleration is also moving to consumer devices, with NPUs and VPUs (Versatile Processor Units) being integrated into smartphone chips (Apple Silicon, Google Tensor) and PC processors (Intel Meteor Lake, AMD AI engines).
+*   **AI in Graphics:** Technologies like Nvidia's DLSS (Deep Learning Super Sampling) use AI and Tensor Cores to upscale lower-resolution renders in real-time, significantly boosting frame rates in video games.
+*   **Future Trends:** Continued integration of AI-specific hardware, massive scaling of HBM capacities, and spatial computing designs to handle the exponential growth in AI model sizes.
